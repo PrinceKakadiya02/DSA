@@ -26,23 +26,3 @@ int BinarySearch(int arr[],int size, int key){
     }
     return -1; // return -1 if key is not found
 }
-
-#include<iostream>
-
-using namespace std;
-
-int main(){
-    int arr[8] = {12, 34, 65, 78, 98, 102, 205, 567};
-    int key = 98;
-    int size = sizeof(arr)/sizeof(arr[0]);
-
-    int ans = BinarySearch(arr, size, key);
-    if( ans >= 0){
-        cout << "Key Found! at position: " << ans << endl;
-    }
-    else{
-        cout << "key not found!" << endl;
-    }
-
-    
-}
