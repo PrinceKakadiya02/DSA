@@ -27,6 +27,11 @@ public:
     }
 };
 
+/*
+
+Time Complexity: O(n * m)   // n = s.size(), m = part.size()
+Space Complexity: O(1)
+*/
 class Solution {
 public:
     string removeOccurrences(string s, string part) {
