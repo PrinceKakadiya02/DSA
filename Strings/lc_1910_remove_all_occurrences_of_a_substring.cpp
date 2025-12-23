@@ -26,3 +26,14 @@ public:
         return res;
     }
 };
+
+class Solution {
+public:
+    string removeOccurrences(string s, string part) {
+        // repeatedly erase part while it exists in s
+        while (s.size() && s.find(part) < s.size()) {
+            s.erase(s.find(part), part.size());
+        }
+        return s;
+    }
+};
