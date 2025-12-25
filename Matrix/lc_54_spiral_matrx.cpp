@@ -1,6 +1,7 @@
 /*
 LeetCode 54
 Spiral Matrix
+    Given an m x n matrix, return all elements of the matrix in spiral order.
 
 Time Complexity: O(n * m)
 Space Complexity: O(n * m)
