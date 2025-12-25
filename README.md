@@ -3,7 +3,7 @@
 This repository contains **Data Structures & Algorithms implemented in C++** for learning and interview preparation.
 
 ## Topics Covered
-- Arrays, Strings, Linked Lists
+- Arrays, Strings
 - Sorting & Searching Algorithms
 
 ## Features
