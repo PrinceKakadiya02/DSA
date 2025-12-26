@@ -25,7 +25,7 @@ public:
 
             // map 1D index to 2D matrix position
             int element = matrix[mid / col][mid % col];
-
+ 
             // if target found
             if (element == target) {
                 return true;
