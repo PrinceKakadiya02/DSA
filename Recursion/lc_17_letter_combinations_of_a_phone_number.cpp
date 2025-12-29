@@ -11,7 +11,7 @@ Space Complexity: O(n)    // recursion stack
 class Solution {
 private:
     void solve(string digits, string output, vector<string>& ans, int index, string mapping[]) {
-        // base case :- if output array is full  
+        // base case : all digits are traversed return the output to ans
         if (index >= digits.length()) {
             ans.push_back(output);
             return;
@@ -39,7 +39,7 @@ public:
 
         //array for storing the output
         string output;
-        // index for the added element in the output
+        // tells which digit is currently converted into letters
         int index = 0;
         // array for number to digits
         string mapping[10] = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
